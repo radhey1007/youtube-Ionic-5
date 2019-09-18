@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.photogallery" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MyApp</name>
+    <name>youTube App</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -87,6 +87,7 @@
     </edit-config>
     <plugin name="cordova-sqlite-storage" spec="^2.5.1" />
     <plugin name="cordova-plugin-camera" spec="~4.0.3" />
-    <engine name="android" spec="7.1.4" />
     <engine name="ios" spec="4.5.5" />
+    <engine name="browser" spec="6.0.0" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
 </widget>
